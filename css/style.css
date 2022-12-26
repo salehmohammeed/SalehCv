@@ -234,7 +234,6 @@ a {
     box-shadow: 0 2px 15px rgb(0 0 0 /20%);
     text-align: start;
     transition: 0.3s;
-    overflow: hidden;
 }
 .boxes .box:hover {
     transform: translateY(-10px);
@@ -246,10 +245,6 @@ a {
     height: 200px;
     border-radius: 20px 0px;
     transition: 0.3s;
-}
-.boxes .box img:hover {
-    transform: scale(1.1);
-    transform: rotate(10deg);
 }
 .boxes .box p {
     padding: 5px 15px;
